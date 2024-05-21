@@ -1,0 +1,28 @@
+{
+  "name": "pptrproj",
+  "version": "1.0.0",
+  "description": "Automation Project Puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests/locator.test.js",
+    "test:dbtedioussql": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests/db_tedious_sql.test.js",
+    "test:dbmssqlwin": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests/db_mssql_win.test.js",
+    "test:dbtediouswin": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests/db_tedious_win.test.js"
+  },
+  "keywords": [
+    "Puppeteer",
+    "Mocha",
+    "Chai",
+    "Automation"
+  ],
+  "author": "SR",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.4.0",
+    "msnodesqlv8": "^4.2.1",
+    "mssql": "^10.0.2",
+    "puppeteer": "^22.9.0",
+    "tedious": "^18.2.0"
+  }
+}
