@@ -71,13 +71,4 @@ function connectToDatabase() {
   
 }
 
-async function checkConnection() {
-  try {
-    const status = await connectToDatabase();
-    console.log(status);
-  } catch (error) {
-    console.error(error);
-  }
-}
-
-checkConnection();
+connectToDatabase();
