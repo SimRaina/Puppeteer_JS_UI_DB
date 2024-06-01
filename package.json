@@ -4,7 +4,7 @@
   "description": "Automation Project Puppeteer",
   "main": "index.js",
   "scripts": {
-    "test": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests/locator.test.js",
+    "test": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests/example.test.js",
     "test:dbtedioussql": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests/db_tedious_sql.test.js",
     "test:dbmssqlwin": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests/db_mssql_win.test.js",
     "test:dbtediouswin": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests/db_tedious_win.test.js"

@@ -71,4 +71,4 @@ function connectToDatabase() {
   
 }
 
-connectToDatabase();
+connectToDatabase();  // calling the function
