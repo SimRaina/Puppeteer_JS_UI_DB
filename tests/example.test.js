@@ -9,7 +9,7 @@ describe('My First Test', () => {
         })
         const page = await browser.newPage()
         await page.goto('https://www.amazon.com/')
-        await page.waitForSelector('input', {timeout: 30000})
+        await page.waitForSelector('input')
         await page.reload()
         await page.goto('https://github.com/simraina')
         await page.goBack()
